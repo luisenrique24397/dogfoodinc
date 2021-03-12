@@ -1,0 +1,74 @@
+:root{
+    --selector: #240FC7;
+    --secundario: #3EA9C1;
+    --animaciones: #EB7834;
+    --oscuro:   #212121;
+    --blanco:   #ffffff;
+    --precios:#1BD12C;
+  }
+  html{
+    font-size: 62.5%;
+  }
+  body{
+    font-size: 16%;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Playfair Display', serif;
+   
+  } 
+  .imagen-fondo {
+    background-image: url("../img/dogfoodinc.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 40rem;
+
+}
+
+.cabecera{
+  color: var(--oscuro);
+  height: 20rem;
+  line-height: 20rem;
+  text-align:justify;
+  text-shadow: #111 0rem 0rem 1rem;
+}
+  .titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--blanco);
+  }
+  .titulo span{
+    font-size: 2rem;
+  }
+  .contenedor{
+    width: 120rem;
+    margin: 0 auto ;
+  }
+  .nav-backgraund{
+    background-color: var(--animaciones);
+  
+  }
+  .navegacion_principal{
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+  }
+  .navegacion_principal a {
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: normal;
+  
+  }
+  .ubicacion{
+    font-size: 2.5rem;
+  }
+  h3,h2{
+    font-size: 1.5rem;
+    color: var(--blanco);
+  }
+  p{
+    color:var(--selector);
+    font-size: 2rem;
+  
+  }
